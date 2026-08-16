@@ -1,13 +1,11 @@
 import React from "react";
 
-export interface AppProps {
-  isLanding?: boolean;
-}
+// export interface AppProps {};
 
-const App: React.FC<AppProps> = ({ isLanding }) => {
+const App: React.FC = () => {
   return (
     <>
-      <h1>Welcome to React Project {isLanding}</h1>
+      <h1 className="bg-amber-200">Welcome Back To React</h1>
     </>
   );
 };
