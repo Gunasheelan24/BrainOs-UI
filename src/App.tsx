@@ -1,11 +1,12 @@
 import React from "react";
+import Home from "@/features/home/pages/Home";
 
 // export interface AppProps {};
 
 const App: React.FC = () => {
   return (
     <>
-      <h1 className="bg-amber-200">Welcome Back To React</h1>
+      <Home />
     </>
   );
 };
