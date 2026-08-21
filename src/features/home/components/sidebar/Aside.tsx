@@ -13,6 +13,7 @@ const Aside: React.FC = () => {
           <li className="bg-[#f7efff]">Recent Notes</li>
           <li>Recently Viewed</li>
           <li>Quick Search</li>
+
           <li>Continue Learning</li>
         </ol>
       </section>
